@@ -1,0 +1,109 @@
+footer {
+    border-top: 48px solid;
+    border-color: var(--opuestoTR);
+    /* background-image: url("/images/estrellas.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    /* background-repeat: no-repeat; 
+    width: 100%;
+    height: 400px; */ 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:var(--terciario);
+}
+
+footer div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1 {
+    margin: 0px;
+    color:var(--especial);
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    border-top: 2px solid;
+    border-color: var(--especial);
+    cursor:pointer;
+}
+footer ul li {
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+footer ul li:hover {
+    color:var(--especial)
+}
+
+.politicafooter {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--opuestoTR);
+    align-items: center;
+    color: var(--terciario);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.politicafooter input{
+    color:var(--opuesto);
+    background-color: var(--terciario);
+     padding:8px ;
+     border:none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    font-family: 'Righteous', sans-serif;
+}
+
+.politicafooter button{
+    color:var(--opuesto);
+    background-color: var(--terciario);
+    padding:8px ;
+    border:none;
+    
+   
+}
+.politicafooter button:hover{
+    background-color: var(--especial);
+}
+
+footer .checkbox {
+    display: none;
+    
+}
+footer .labelcheck {
+    color:var(--opuesto);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  background-color: var(--terciario);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  
+}
+footer .labelcheck:hover{
+    background-color: var(--especial);
+}
+.politicafooter p {
+    margin:0;
+}
+
+
+footer .checkbox:checked + .labelcheck {
+    background-color: var(--especial);
+    color:var(--opuesto);
+} 
+
+footer a {
+    text-decoration: none;
+    color:var(--terciario)
+}
+footer a:hover{
+    color: var(--especial);
+}
+

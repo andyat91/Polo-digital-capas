@@ -1,0 +1,150 @@
+h2{
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    border-left: 8px solid;
+    border-right: 8px solid;
+    border-color: var(--especial);
+    border-top: none;
+    border-bottom: none;
+    color:var(--terciario);
+    width:100%;
+    background: transparent;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+
+#clientes .separador {
+    border-bottom: 4px solid;
+    width: 10%;
+    border-color: var(--opuesto);
+}
+.card img {
+    width: 30%;
+   height: 220px;
+    background-size: cover; 
+    overflow: hidden;
+   
+}
+.card .divisor {
+
+    border-bottom: 2px solid;
+}
+.card h3,h5 {
+    margin: 0px;
+}
+.card div{
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nombrepolo {
+
+    color:var(--especial);
+}
+#clientes {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#clientes p {
+    font-family: 'Righteous', sans-serif;
+    color: azure;
+    font-size: 16px;
+}
+#clientes .textobutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#clientes button {
+    background-color: var(--terciario);
+    color: var(--opuesto);
+    border: none;
+    padding: 6px;
+    font-family: 'Righteous', sans-serif;
+    border-left: 1px solid;
+    width: 100%;
+}
+#clientes button:hover {
+    background-color: var(--especial);
+}
+#clientes a:hover{
+   color: var(--especial);
+}
+#clientes a {
+    padding: 6px;
+   font-size: 40px;
+    color: var(--terciario);
+      
+}
+.card .textobutton {
+    padding-left: 0px;
+}
+
+.textobutton .enlace {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-top-left-radius: 8px;
+    border-color: var(--especial);
+    padding-top: 8px;
+    width: 20%;
+ 
+}
+.formulariosclientes {
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 42px;
+    color: var(--especial);
+   
+}
+.formulariosclientes .modificarempresa,.crearempresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    text-align: center;
+}
+.formulariosclientes .modificarempresa{
+
+    border-left: 2px solid;
+    border-color: var(--especial);
+}
+.formulariosclientes input {
+
+    border: none;
+    padding: 6px;
+    margin: 8px;
+    width: 100%;
+    background-color: var(--terciario);
+    font-family: 'Righteous', sans-serif;
+}
+.formulariosclientes button {
+    border: none;
+    padding: 6px;
+    margin: 8px;
+    width: 100%;
+    background-color: var(--opuesto);
+    color: var(--terciario);
+    font-family: 'Righteous', sans-serif;
+}
+.formulariosclientes button:hover {
+    background-color: var(--especial);
+    color: var(--opuesto);
+}
+.formulariosclientes .formbutton {
+    width: 60%;
+}
