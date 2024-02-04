@@ -33,7 +33,7 @@ const addClient = async (req, res) => {
 
   try {
     const cifId = await dao.getCif(CIF);
-    // Si existe el usuario respondemos con un 409 (conflict)
+    
     if (cifId.length > 0)
       return res
         .status(409)
